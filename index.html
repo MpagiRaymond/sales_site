@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sales Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">SalesPro</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Homepage -->
+    <header id="home">
+        <div class="hero">
+            <h1>Boost Your Sales with Our Proven Strategies</h1>
+            <p>Expert consulting and solutions to elevate your business.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+
+    <!-- Slider Section -->
+    <section class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="Acram.jpeg" alt="Increase Your Sales">
+                <div class="caption">Boost Your Sales Performance</div>
+            </div>
+            <div class="slide">
+                <img src="joel.jpeg" alt="CRM Solutions">
+                <div class="caption">Streamline Your CRM</div>
+            </div>
+            <div class="slide">
+                <img src="peter.jpeg" alt="Sales Training">
+                <div class="caption">Expert Sales Training</div>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
